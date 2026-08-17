@@ -1,0 +1,35 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+next-env.d.ts.timestamp
+
+# production
+/build
+
+# env
+.env
+.env.local
+.env*.local
+
+# local pipeline scratch (ffmpeg/remotion intermediates)
+/.tmp
+/tmp
+
+# logs
+*.log
+npm-debug.log*
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# typescript
+*.tsbuildinfo
